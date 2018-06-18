@@ -14,11 +14,11 @@ Pod::Spec.new do |s|
 
   s.default_subspec = 'All'
   s.subspec 'All' do |ss|
-    ss.dependency 'BlocksKit/Core'
-    ss.dependency 'BlocksKit/DynamicDelegate'
-    ss.ios.dependency 'BlocksKit/MessageUI'
-    ss.ios.dependency 'BlocksKit/QuickLook'
-    ss.ios.dependency 'BlocksKit/UIKit'
+    ss.dependency 'BlocksKit_RAGFork/Core'
+    ss.dependency 'BlocksKit_RAGFork/DynamicDelegate'
+    ss.ios.dependency 'BlocksKit_RAGFork/MessageUI'
+    ss.ios.dependency 'BlocksKit_RAGFork/QuickLook'
+    ss.ios.dependency 'BlocksKit_RAGFork/UIKit'
   end
 
   s.subspec 'Core' do |ss|
